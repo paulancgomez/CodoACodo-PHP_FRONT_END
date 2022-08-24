@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>    
+<body>
+    
+    <h1>Formulario de Registro</h1>
+    
+    <form>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Escribe tu email" value="@gmail.com" readonly>
+        </p>
+        <p>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha">
+        </p>
+        <p>
+            <label for="genero">Genero:</label>
+            
+            <input type="radio" name="genero" id="genero" value="Hombre">
+            <label for="genero">Hombre</label>
+
+            <input type="radio" name="genero" id="genero" value="Mujer">
+            <label for="genero">Mujer</label>
+
+            <input type="radio" name="genero" id="genero" value="Otro">
+            <label for="genero">Otro</label>
+
+        </p>
+        <p>
+            <label for="">Estudios:</label>
+
+            <input type="checkbox" name="estudiosP" id="estudiosP">
+            <label for="">Primarios</label>
+
+            <input type="checkbox" name="estudiosS" id="estudiosS">
+            <label for="">Secundarios</label>
+
+            <input type="checkbox" name="estudiosT" id="estudiosT">
+            <label for="">Terciarios</label>
+        </p>
+        
+        <p>
+            <label for="">Comentarios</label> <br>
+            <textarea name="" id="" cols="15" rows="5"></textarea>
+        </p>
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
